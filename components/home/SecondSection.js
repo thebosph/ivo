@@ -27,7 +27,7 @@ const SecondSection = () => {
         variants={variants}
         initial="hidden"
         animate={controls}
-        className="drop-shadow-2xl text-6xl  lg:text-9xl font-ibm font-extrabold tracking-tighter leading-normal  text-slate-800 "
+        className=" text-6xl  lg:text-9xl font-ibm font-extrabold tracking-tighter leading-normal  text-slate-800 "
       >
         My Services
       </motion.h2>
