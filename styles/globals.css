@@ -1,9 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Biryani:wght@300;800;900&family=Nunito:wght@200;700;900&family=Poppins:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;700&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  @apply scrollbar-hide;
 }
 
 a {
@@ -13,4 +20,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.sectionHeader {
+  background: conic-gradient(
+    at left top,
+    rgb(250, 250, 250),
+    rgb(236, 254, 255),
+    rgb(29, 78, 216)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input {
+  @apply border-2 rounded-md border-yellow-400 p-2 font-ibm;
 }
