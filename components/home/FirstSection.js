@@ -9,7 +9,7 @@ const FirstSection = () => {
           transition={{ duration: 2 }}
           className="font-ibm font-extrabold  text-6xl lg:text-9xl tracking-tightest bg-band bg-cover text-slate-800 drop-shadow-2xl p-4 "
         >
-          I'm Ivo
+          I&apos;m Ivo
         </motion.h1>
         <div className="font-ibm font-extrabold text-6xl lg:text-9xl tracking-tightest  text-slate-600 drop-shadow-2xl ">
           Dev.
