@@ -28,7 +28,7 @@ const FirstSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="font-ibm text-xl text-slate-800 drop-shadow-2xl bg-white bg-opacity-50 inline-block leading-normal  tracking-tighter  p-1 rounded-md"
+          className="font-ibm text-xl text-slate-800 bg-white bg-opacity-50 inline-block leading-normal  tracking-tighter  p-1 rounded-md"
         >
           Ivo is a freelance and a full-stack web developer based in Istanbul.
           He still continues to develop himself
@@ -38,7 +38,7 @@ const FirstSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="font-ibm text-xl text-slate-800 drop-shadow-2xl bg-white bg-opacity-50 rounded-md inline-block leading-normal  tracking-tighter  px-1"
+          className="font-ibm text-xl text-slate-800 bg-white bg-opacity-50 rounded-md inline-block leading-normal  tracking-tighter  px-1"
         >
           He has a special interest in Reactjs. He also enjoys being at every
           stage of web development.
@@ -48,7 +48,7 @@ const FirstSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
-          className="font-ibm text-xl text-slate-800 drop-shadow-2xl bg-white bg-opacity-50 rounded-md inline-block leading-normal  tracking-tighter  px-1"
+          className="font-ibm text-xl text-slate-800 bg-white bg-opacity-50 rounded-md inline-block leading-normal  tracking-tighter  px-1"
         >
           He continues to develop his career in this field.
         </motion.p>
@@ -57,7 +57,7 @@ const FirstSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
-          className="font-ibm text-xl text-slate-800 drop-shadow-2xl bg-white bg-opacity-50 rounded-md inline-block leading-normal  tracking-tighter  px-1"
+          className="font-ibm text-xl text-slate-800 bg-white bg-opacity-50 rounded-md inline-block leading-normal  tracking-tighter  px-1"
         >
           Believes in development and lifelong learning.
         </motion.p>
@@ -66,7 +66,7 @@ const FirstSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2.5 }}
-          className="font-ibm text-xl text-slate-800 drop-shadow-2xl bg-white bg-opacity-50  rounded-md inline-block leading-normal  tracking-tighter  px-1"
+          className="font-ibm text-xl text-slate-800 bg-white bg-opacity-50  rounded-md inline-block leading-normal  tracking-tighter  px-1"
         >
           My stack is; JavaScript,
           <strong className="text-slate-800">ReactJs,</strong> NextJs,
